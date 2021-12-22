@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    font-family:  Helvetica, sans-serif;
+    color: rgba(60, 60, 60);
+}
+
+#welcome{
+    background-image: 
+    linear-gradient( rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1)),
+    url("code.png");
+    background-size: cover;
+
+    height: 28em;
+    overflow: hidden;  
+    color: white;
+}
+#welcome1{
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+}
+#welcome2{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 1.1em;
+    margin-top: 1.8em;
+    line-height: 1.4em;
+}
+#welcomeb{
+    width: fit-content;
+    margin: auto;
+    margin-top: 3em;
+}
+#welcomebb{
+    font-size: 1.1em;
+    color: white;   
+    width: 7em;
+    margin: 2em auto;
+    text-align: center;
+    background-color: rgba(60, 60, 60);
+    padding: 1.2em 2em;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(90, 90, 90);    
+}
+#welcomebb:hover{
+    background-color: white;
+    color: rgba(60, 60, 60);
+}
+#web{
+    color: rgba(50, 50, 50);
+    height: 14em;
+}
+#web1{
+    font-size: 1.7em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+.webClass{
+    width: 30%;
+    display: inherit;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+#webLeft{
+    float: left;
+    text-align: right;
+    margin-left: 18%;
+}
+#webRight{
+    float: right;
+    margin-right: 18%;
+}
+
+
+#images{
+    background-color: rgba(60, 60, 60);;
+    width: 100%;
+}
+#imagesDiv{
+    width: 68%;
+    margin: auto;
+    padding: 2em;
+    padding-bottom: 1em;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.image{
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+    margin: 1.05%;
+}
+h3, h2{
+    margin-top: 2em;
+    text-align: center;
+    
+}
+.images11{
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+#message1{
+    margin: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    font-size: 1.7em;
+    font-weight: 700;
+    text-align: center;
+}
+#message2{
+    width: 65%;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+
+#contact{
+    color: white;   
+    font-size: 1.1em;
+    height: 17em;
+}
+#contact1{
+    height: 100%;
+    float: left;
+    width: 50%;
+    background-color: rgb(17, 126, 194);
+    margin: 0em;
+}
+#contact2{
+    height: inherit;
+    float: right;
+    width: 50%;
+    background-color: rgb(50, 50, 50);
+    margin: 0em;
+}
+#contact11, #contact21{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    margin: 2.2em;
+}
+#contact12, #contact22{
+    text-align: center;
+    padding: 0em 2em;
+}
+#contact13{
+    text-align: center;
+    margin: 2em;
+}
+
+
+#end{
+    background-color: black;
+}
+.end1{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    margin: 2em 0em;
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 126, 194);
+}
